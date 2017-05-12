@@ -1,0 +1,25 @@
+.blank {
+    color: #fff;
+    height: 100px;
+}
+.blank h4{
+    padding: 5px;
+    background: #333333;
+    margin-top: -3px;
+    font-size: 13pt;
+	font-family: "Georgia", Gadget, sans-serif;
+	color: #ffffff;
+}
+.blank .btn {
+     width: 100%;
+ }
+
+.blank p {
+    background: #285e8e;
+    line-height: 15px;
+    padding: 5px;
+    font-size: 10pt;
+    font-family: "Georgia", Gadget, sans-serif;
+    margin-top: -10px;
+    border-radius: 0 0 10px 10px;
+}
