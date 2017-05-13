@@ -204,10 +204,6 @@ include("php/config.php");
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Fale Conosco</h1>
-                    <div class="alert alert-info alert-dismissable div" id="div">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                        Menssagem enviada com sucesso, em breve entraremos em contato.
-                    </div>
                     <p>Como podemos ajudar você?. Deixe seu comentario, tire suas dúvidas</p>
                     <div class="status alert alert-success" style="display: none"></div>
                     <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form" onSubmit="return Enviar();">
