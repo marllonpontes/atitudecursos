@@ -21,6 +21,4 @@
     echo json_encode($status);
     die;
 
-	
-	
-	
+?>
