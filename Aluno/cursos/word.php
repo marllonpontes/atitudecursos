@@ -113,26 +113,19 @@ font-size: 16px;"> <?php echo "Ultimo acesso ". $_SESSION['data_ultimo_login'] ?
                                     <div class="panel-body"> 
 
                     <h4>Frame de video</h4>
-                    <iframe width="980" width="560" height="551" height="315" src="https://www.youtube.com/embed/C_z_fw1fqT4?list=PLWShyXDYqUBQ3UIX96eg5sxyoasR3Eu0Y" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="980" width="560" height="551" height="315" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://www.youtube.com/embed/C_z_fw1fqT4?list=PLWShyXDYqUBQ3UIX96eg5sxyoasR3Eu0Y" frameborder="0" allowfullscreen></iframe>
                     <p>Conhecido como o mais popular editor de textos do mercado, a versão 2010 do Microsoft Word chega para manter o programa na posição de uma das melhores opções quando o objetivo é compor trabalhos ou até mesmo fazer postagens em blogs. Embora a interface não seja tão diferente da versão 2007, diversas novidades garantem uma experiência de uso ainda mais confortável.
 
 A interface permanece a Ribbon, mesma da versão anterior, porém ganhou um fundo branco em vez de azulado. Para deixar a utilização mais fácil, o sistema de abas sofreu ligeiras alterações, principalmente no que diz respeito à ordem e tamanho com que algumas funções são exibidas – caso da contagem de palavras, que agora ganha destaque na aba “Revisão”.</p>
                    
                     <h4>Downloand do PDF</h4>
-                    <iframe src="../../pdf/apostila-word.pdf" width="980" height="780">Carregando...</iframe>
-                   <!--
-                    <iframe src="http://www.cpcrs.com.br/blog/wp-content/uploads/2015/11/Inform%C3%A1tica-Sandro-Word-2010-PREENCHIDO-2015.pdf" width="980" height="780">Carregando...</iframe>
-                    
-                    
-                    <object data="meuarquivo.pdf" type="application/pdf">
-    					<p>Seu navegador não tem um plugin pra PDF</p>
-					</object>-->
-                    
+                    <iframe src="../../pdf/apostila-word.pdf" width="980" height="780" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Carregando...</iframe>
+                                       
                     <h4>Editor de texto</h4>
-                    <iframe src="https://docs.google.com/document/d/1BVYMVr16Aa5Hfl53SAhKa86ro15nMUVul__ukqY8k4M/edit?usp=sharing" width="980" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                    <iframe src="https://docs.google.com/document/d/1BVYMVr16Aa5Hfl53SAhKa86ro15nMUVul__ukqY8k4M/edit?usp=sharing" width="980" width="500" height="500" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
                    
 					<h4>Perguntas e Resposta</h4>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScc_JTY24kg-GqRfUZ2ok-1vC9qjWxrnUerGnezu-QfCdCETQ/viewform?embedded=true" width="980" width="500" height="3600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScc_JTY24kg-GqRfUZ2ok-1vC9qjWxrnUerGnezu-QfCdCETQ/viewform?embedded=true" width="980" width="500" height="3600" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
                   
                    <!-- <h4>Small Button</h4>
                     <a href="#" class="btn btn-default btn-sm">default</a>
