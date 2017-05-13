@@ -120,7 +120,6 @@ include("php/config.php");
 
             while($valor = mysqli_fetch_array($sql)) {
             ?>
-            </ul><!--/#portfolio-filter-->
             <ul class="portfolio-items col-md-4">
                 <li class="portfolio-item apps <?=$valor["categoria"]?>">
                     <div class="item-inner">
