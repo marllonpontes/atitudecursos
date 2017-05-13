@@ -160,15 +160,10 @@ a:focus {
 .box.first {
   margin-top: -40px;
   border-radius: 5px 5px 0 0;
-  height: 500px;
 }
-
-.box.second {
-  margin-top: -40px;
-  border-radius: 5px 5px 0 0;
-  height: 1000px;
+.all {
+    height: 1200px;
 }
-
 .box.last {
   border-radius: 0 0 5px 5px;
 }
@@ -193,7 +188,7 @@ a:focus {
   margin: 0;
 }
 .portfolio-items {
-  margin-right: -20px;
+  margin-right: 0px;
 }
 .portfolio-items a{
     color: #fff;
