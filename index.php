@@ -6,6 +6,14 @@ include("php/config.php");
 <!DOCTYPE html>
 <html lang="br">
 <head>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9095521793912977",
+    enable_page_level_ads: true
+  });
+</script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -250,20 +258,20 @@ include("php/config.php");
                         </div>
                     </div>
                     <h1>Social</h1>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="social">
-                                <li><a href="https://www.facebook.com/atituderhcursos"><i class="fa fa-facebook icon-social icon-facebook"></i> Facebook</a></li>
-                                <li><a href="#"><i class="fa fa-youtube icon-youtube icon-social"></i> Youtube</a></li>
-                            </ul>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/atituderhcursos"><i class="fa fa-facebook icon-social icon-facebook"></i> Facebook</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCIefkEGhy-kIHtqo7hdUS-A"><i class="fa fa-youtube icon-youtube icon-social"></i> Youtube</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="social">
+                                    <li><a href="https://twitter.com/CursosAtitude"><i class="fa fa-twitter icon-twitter icon-social"></i> Twitter</a></li>
+                                    <li><a href="https://www.linkedin.com/in/atitude-cursos-451271143/"><i class="fa fa-linkedin icon-linkedin icon-social"></i> Linkedin</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-twitter icon-twitter icon-social"></i> Twitter</a></li>
-                                <li><a href="#"><i class="fa fa-linkedin icon-linkedin icon-social"></i> Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div><!--/.col-sm-6-->
             </div><!--/.row-->
         </div><!--/.box-->
