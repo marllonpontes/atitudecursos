@@ -2,8 +2,6 @@
 
 include("php/config.php");
 
-include("php/u_agent.php");
-
 ?>
 <!DOCTYPE html>
 <html lang="br">
