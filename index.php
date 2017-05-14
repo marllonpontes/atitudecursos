@@ -16,8 +16,9 @@ include("php/config.php");
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Atitude Cursos EAD é uma plataforma de ensino que propõe novas formas de aprendizado com metodologias modernas e com uso intenso de tecnologia aplicada ao e-learning.">
+    <meta name="keywords" content="cursos, gratis, ensino a distancia, ead, profissionalizante, informatica">
+    <meta name="author" content="Atitude RH Consultoria e Cursos">
     <title>Home | Atitude Cursos</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
