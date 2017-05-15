@@ -1,10 +1,11 @@
 ﻿<?php
 
+define('BD_HOST', 'localhost');
 define('BD_USER', 'root');
 define('BD_PASS', '');
 define('BD_NAME', 'usuarios');
 
-$conexao = mysqli_connect('localhost','root', '', 'usuarios');
+$conexao = mysqli_connect('BD_HOST','BD_USER', 'BD_PASS', 'BD_NAME');
 
 function protegePaginaAdm() {
 	if (!isset($_SESSION['id']) OR !isset($_SESSION['nome'])) {
