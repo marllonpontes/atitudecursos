@@ -280,7 +280,7 @@ include("php/config.php");
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2017 | Todos os direitos reservados a <a target="_blank" href="#">Atitude Cursos</a>.
+                &copy; <?php echo date("Y");?> | Todos os direitos reservados a <a target="_blank" href="#">Atitude Cursos</a>.
             </div>
             <div class="col-sm-6">
                 <img class="pull-right" src="images/designer.png" alt="ShapeBootstrap" title="ShapeBootstrap">
