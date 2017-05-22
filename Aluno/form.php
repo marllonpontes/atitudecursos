@@ -148,14 +148,14 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                                     <h3 class="panel-title">Contato</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <p>Atendimento de segunda a sábado das 8:00am as 19:00.</p>
+                                    <p>Atendimento de segunda a sábado das 8:00 as 19:00.</p>
                                     <ul class="list-unstyled">
                                         <li>
                                             <i class="fa fa-phone"></i>(91) 3754-2307</li>
                                         <li>
                                             <i class="fa fa-envelope"></i> atituderhcursos@gmail.com</li>
                                         <li>
-                                            <i class="fa fa-code"></i> WebMaster: webmaster@atitudecursos.org</li>
+                                            <i class="fa fa-code"></i> webmaster@atitudecursos.org</li>
                                     </ul>
                                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fatituderhcursos%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="300" style="border:none;overflow:hidden;margin-left:-7px" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                                 </div>
