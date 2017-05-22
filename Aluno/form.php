@@ -115,7 +115,7 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                                 <div class="col-md-10">
                                 <!-- Main Content -->
                                 <h2>Fale Conosco</h2>
-                                <p>Estamos a todo o momento nos esforçando para melhorar nossa plataforma de ensino, sempre
+                                <p align="justify">Estamos a todo o momento nos esforçando para melhorar nossa plataforma de ensino, sempre
                                     pensando na melhor forma de ajudar você. Nos ajude também com críticas construtivas, comentarios
                                     ou dúvidas a respeito.</p>
                                 <br>
@@ -148,23 +148,14 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                                     <h3 class="panel-title">Contato</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <p>Atendimento de segunda a sábado das 8:00am as 19:00 e no sábado das 14:00pm as 19:00pm com
-                                        exceção no domingo.</p>
+                                    <p>Atendimento de segunda a sábado das 8:00am as 19:00.</p>
                                     <ul class="list-unstyled">
                                         <li>
                                             <i class="fa fa-phone"></i>(91) 3754-2307</li>
                                         <li>
                                             <i class="fa fa-envelope"></i> atituderhcursos@gmail.com</li>
                                         <li>
-                                            <i class="fa fa-code"></i> WebMaster: www.arkil.com</li>
-                                    </ul>
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <strong>Segunda-Sexta:</strong> 8:00am as 19:00pm</li>
-                                        <li>
-                                            <strong>Sábado:</strong> 14:00pm as 19:00pm</li>
-                                        <li>
-                                            <strong>Domingo:</strong> Inativo</li>
+                                            <i class="fa fa-code"></i> WebMaster: webmaster@atitudecursos.org</li>
                                     </ul>
                                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fatituderhcursos%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="300" style="border:none;overflow:hidden;margin-left:-7px" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                                 </div>
