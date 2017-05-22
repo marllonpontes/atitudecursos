@@ -1,6 +1,6 @@
 <?php
 
-$conexao = mysqli_connect('localhost','root', '', 'usuarios');
+include("../php/config.php");
 $id = $_GET['id'];
 
 $sql = mysqli_query($conexao, "DELETE FROM cursos WHERE id='$id'");
