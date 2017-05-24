@@ -238,7 +238,7 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                             <div class="panel-heading">
                                 <h3 class="panel-title">Veja Também</h3>
                             </div>
-                            <div class="panel-body">
+                            <div class="panel-body" height="300px">
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- Atitude Cursos -->
 				<ins class="adsbygoogle"
