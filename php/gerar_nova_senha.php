@@ -31,14 +31,14 @@ function recupera_senha($email){
 
 	// Checando se o email informado está cadastrado
 		
-	$sql_check = mysql_query("SELECT * FROM aluno WHERE email='{$email}'");
-	$sql_check_num = mysql_num_rows($sql_check);
+	$sqli_check = mysqli_query("SELECT * FROM aluno WHERE email='{$email}'");
+	$sqli_check_num = mysqli_num_rows($sqli_check);
 
-	if($sql_check_num == 0){
+	if($sqli_check_num == 0){
 
 		echo "Este email não está cadastrado em nosso banco de dados.<br /><br />";
 
-		include "formulario_senha_perdida.html";
+		include "../formulario_senha_perdida.html";
 
 		exit();
 
@@ -70,11 +70,11 @@ function recupera_senha($email){
 
 	$senha = sha1($senha_randomica);
 
-	$sql = mysql_query("UPDATE aluno SET senha='{$senha}' WHERE email ='{$email}'");
+	$sql = mysqli_query("UPDATE aluno SET senha='{$senha}' WHERE email ='{$email}'");
 
 	$headers = "MIME-Version: 1.0\n";
 	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
-	$headers .= "From: Teu Domínio - Webmaster<teuemail@domíniodoteuemail.com>"; //COLOQUE TEU EMAIL
+	$headers .= "From: atitudecursos.org - Webmaster<webmaster@atitudecursos.org>"; //COLOQUE TEU EMAIL
 
 	$subject = "Sua nova senha em atitudecursos.org";
 	$message = "Olá, redefinimos sua senha.<br /><br />
