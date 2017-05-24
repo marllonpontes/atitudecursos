@@ -31,6 +31,16 @@ protegePagina();
    
 </head>
 <body>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Atitude Cursos -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-9095521793912977"
+				     data-ad-slot="7723042240"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
     <div id="wrapper">
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
@@ -238,17 +248,8 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                             <div class="panel-heading">
                                 <h3 class="panel-title">Veja Também</h3>
                             </div>
-                            <div class="panel-body" height="300px">
-                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Atitude Cursos -->
-				<ins class="adsbygoogle"
-				     style="display:block"
-				     data-ad-client="ca-pub-9095521793912977"
-				     data-ad-slot="7723042240"
-				     data-ad-format="auto"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+                            <div class="panel-body">
+                                
                             </div>
                         </div>
                         <!-- End About -->
