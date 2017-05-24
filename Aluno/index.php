@@ -2,12 +2,12 @@
 session_start();
 
 include("../php/config.php");
-include_once("../php/analyticstracking.php");
 protegePagina();
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include_once("../php/analyticstracking.php"); ?>
       <meta charset="utf-8" />
       <link rel="shortcut icon" href="../images/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
