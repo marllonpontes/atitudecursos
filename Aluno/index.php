@@ -2,6 +2,7 @@
 session_start();
 
 include("../php/config.php");
+include_once("../php/analyticstracking.php");
 protegePagina();
 ?>
 <!DOCTYPE html>
