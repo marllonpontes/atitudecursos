@@ -239,7 +239,16 @@ font-size: 16px;"><i class="fa fa-clock-o"></i> <?php echo "Ultimo acesso ". $_S
                                 <h3 class="panel-title">Veja Também</h3>
                             </div>
                             <div class="panel-body">
-                                <img src="../images/shipping.jpg">
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Atitude Cursos -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-9095521793912977"
+				     data-ad-slot="7723042240"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
                             </div>
                         </div>
                         <!-- End About -->
