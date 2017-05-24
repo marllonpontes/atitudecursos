@@ -20,7 +20,7 @@ function recupera_senha($email){
 
 	if(!isset($email)){
 
-        echo "VocÍ esqueceu de preencher seu email.<br />
+        echo "Voc√™ esqueceu de preencher seu email.<br />
 			<strong>Use o mesmo email que utilizou em seu cadastro.</strong><br /><br />"; 
 
 		header("Location:../formulario_senha_perdida.html");
@@ -29,14 +29,14 @@ function recupera_senha($email){
 
 	}
 
-	// Checando se o email informado est· cadastrado
+	// Checando se o email informado est√° cadastrado
 		
-	$sql_check = mysql_query("SELECT * FROM usuarios WHERE email='{$email}'");
+	$sql_check = mysql_query("SELECT * FROM aluno WHERE email='{$email}'");
 	$sql_check_num = mysql_num_rows($sql_check);
 
 	if($sql_check_num == 0){
 
-		echo "Este email n„o est· cadastrado em nosso banco de dados.<br /><br />";
+		echo "Este email n√£o est√° cadastrado em nosso banco de dados.<br /><br />";
 
 		include "formulario_senha_perdida.html";
 
@@ -44,7 +44,7 @@ function recupera_senha($email){
 
 	}
 	
-	// Se tudo OK vamos gerar uma nova senha e enviar para o email do usu·rio!
+	// Se tudo OK vamos gerar uma nova senha e enviar para o email do usu√°rio!
 
 	function makeRandomPassword(){
 
@@ -68,27 +68,27 @@ function recupera_senha($email){
 
 	$senha_randomica = makeRandomPassword();
 
-	$senha = md5($senha_randomica);
+	$senha = sha1($senha_randomica);
 
-	$sql = mysql_query("UPDATE usuarios SET senha='{$senha}' WHERE email ='{$email}'");
+	$sql = mysql_query("UPDATE aluno SET senha='{$senha}' WHERE email ='{$email}'");
 
 	$headers = "MIME-Version: 1.0\n";
 	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
-	$headers .= "From: Teu DomÌnio - Webmaster<teuemail@domÌniodoteuemail.com>"; //COLOQUE TEU EMAIL
+	$headers .= "From: Teu Dom√≠nio - Webmaster<teuemail@dom√≠niodoteuemail.com>"; //COLOQUE TEU EMAIL
 
-	$subject = "Sua nova senha em teusite.com";
-	$message = "Ol·, redefinimos sua senha.<br /><br />
+	$subject = "Sua nova senha em atitudecursos.org";
+	$message = "Ol√°, redefinimos sua senha.<br /><br />
 
 	<strong>Nova Senha</strong>: {$senha_randomica}<br /><br />
 
-	<a href='http://www.teusite.com/formulario_login.html'>http://www.teusite.com/formulario_login.html</a><br /><br />
+	<a href='http://www.atitudecursos.org/formulario_login.html'>http://www.atitudecursos.org/formulario_login.html</a><br /><br />
 
 	Obrigado!<br /><br />
 
 	Webmaster<br /><br /><br />
 
 
-	Esta È uma mensagem autom·tica, por favor n„o responda!";
+	Esta √© uma mensagem autom√°tica, por favor n√£o responda!";
 
 	mail($email, $subject, $message, $headers);
 
