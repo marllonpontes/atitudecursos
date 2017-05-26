@@ -108,7 +108,7 @@ include("php/config.php");
       <div class="box first all">
         <div class="center gap">
           <h2>Cursos</h2>
-          <p class="lead">Diversos cursos para atender sua necessidade.</p>
+          <p class="lead">Diversos cursos para atender suas necessidades e interesses.</p>
         </div><!--/.center-->
         <ul class="portfolio-filter">
                 <li><a class="btn btn-primary active" href="#" data-filter=".info">Informática</a></li>
