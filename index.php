@@ -234,7 +234,7 @@ include("php/config.php");
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <textarea name="message" required class="form-control" rows="8" placeholder="Menssagem"></textarea>
+                                    <textarea name="message" required class="form-control" rows="8" placeholder="Mensagem"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-send"></span> Enviar</button>
