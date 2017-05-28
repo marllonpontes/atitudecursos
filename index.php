@@ -289,11 +289,13 @@ include("php/config.php");
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                &copy; <?php echo date("Y");?> | Todos os direitos reservados a <a target="_blank" href="#">Atitude Cursos</a>.
+            <div class="col-sm-8">
+                &copy; 2017 | Todos os direitos reservados a Atitude Cursos.
+                <a href="politica-de-privacidade.php" style="color:#0000FF">Política de Privacidade</a> | 
+                    <a href="termos-de-uso.php" style="color:#0000FF">Termos de Uso</a>
             </div>
-            <div class="col-sm-6">
-                <img class="pull-right" src="images/designer.png" alt="ShapeBootstrap" title="ShapeBootstrap">
+            <div class="col-sm-4">
+                <img class="pull-right" src="images/designer.png" alt="Designer" title="Designer">
             </div>
         </div>
     </div>
