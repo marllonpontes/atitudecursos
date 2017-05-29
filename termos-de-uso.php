@@ -94,7 +94,7 @@ include("php/config.php");
     III -  Responder a quaisquer dúvidas do(a) CONTRATANTE, relacionadas à utilização e  funcionamento do site, no prazo máximo de 48 horas em dias úteis.<br />
     § 1º -  Corrigir no prazo de 48 horas em dias úteis, a contar do recebimento do  comunicado, qualquer problema inerente aos cursos oferecidos;<br />
     IV – O  prazo de que trata o § 1º, poderá ser estendido, caso a natureza do problema  exija a contratação de serviço de terceiros.<br />
-    § 2º - Ao  concluir o curso, com a Avaliação Aprovada, a CONTRATADA estará obrigada a  emitir, em prazo razoável, e após o recolhimento da taxa administrativa, um  certificado digital de conclusão do curso. O Certificado ficará disponível no  Site, o aluno poderá salvar em seu computador e/ou imprimir.<br />
+    § 2º - Ao  concluir o curso, com a Avaliação Aprovada, a CONTRATADA estará obrigada a  emitir, em prazo de 15 dias úteis, e após o recolhimento da taxa administrativa, um certificado de conclusão do curso. O Certificado será enviado pelos CORREIOS no endereço informado pelo aluno.<br />
     V – O  certificado será utilizado como prova de conclusão do curso perante qualquer  Empresa, Instituição de Ensino, Órgãos Públicos, Instituições empregadoras em  geral;<br />
     VI – O certificado será enviado por email automáticamente para o aluno, após a confirmação do pagamento;<br />
     § 3º - O tempo médio estimado para a confirmação do pagamento por cartão de crédito é de 10(dez) minutos.<br />
