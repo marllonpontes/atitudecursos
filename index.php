@@ -105,7 +105,7 @@ include("php/config.php");
 
 <section id="Cursos">
     <div class="container">
-      <div class="box first all">
+      <div class="box">
         <div class="center gap">
           <h2>Cursos</h2>
           <p class="lead">Diversos cursos para atender suas necessidades e interesses.</p>
