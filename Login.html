@@ -1,6 +1,23 @@
 ﻿<!DOCTYPE html>
 <html lang="br">
 <head>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88350404-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9095521793912977",
+    enable_page_level_ads: true
+  });
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -21,6 +38,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposede.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head><!--/head-->
 
 <body>
@@ -70,18 +88,20 @@
                         <span class="input-group-addon">
                             <i class="fa fa-user"></i>
                         </span>
-                        <input placeholder="E-mail" name="usuario" class="form-control" type="text">
+                        <input placeholder="E-mail" name="usuario" class="form-control" type="text" required>
                     </div>
                     <div class="input-group margin-bottom-20">
                         <span class="input-group-addon">
                             <i class="fa fa-lock"></i>
                         </span>
-                        <input placeholder="Senha" name="senha" class="form-control" type="password">
+                        <input placeholder="Senha" name="senha" class="form-control" type="password" required>
+                        <br>
+                        <div class="g-recaptcha" data-sitekey="6LePkiMUAAAAAHBNwQcudyxC_chq0jiSv6I_67RI"></div><br><br>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <label class="checkbox">
-                                <input type="checkbox">Fique conectado</label>
+                                <input name="conectado" type="checkbox">Fique conectado</label>
                         </div>
                         <div class="col-md-6">
                             <button class="btn btn-success pull-right" type="submit">Entrar</button>
