@@ -4,7 +4,7 @@ define('BD_USER', 'u768531060_root');
 define('BD_PASS', '');
 define('BD_NAME', 'u768531060_usuarios');
 
-$conexao = mysqli_connect('mysql.hostinger.com.br','u768531060_root', '1000atitudes', 'u768531060_users');
+
 
 function protegePaginaAdm() {
 	if (!isset($_SESSION['id']) OR !isset($_SESSION['nome'])) {
